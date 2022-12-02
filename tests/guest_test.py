@@ -9,4 +9,4 @@ class TestGuest(unittest.TestCase):
         self.assertEqual("John",self.instance_of_guest.name)
 
     def test_guest_has_wallet(self):
-        self.assertEqual
+        self.assertEqual(100,self.instance_of_guest.wallet)
